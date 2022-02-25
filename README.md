@@ -39,7 +39,7 @@ pnpm dev
 pnpm build
 ```
 
-### Lint with [ESLint](https://eslint.org/), [Prettier](https://prettier.io/)
+### Lint with [ESLint](https://eslint.org/), [Stylelint](https://stylelint.io/) and [Prettier](https://prettier.io/)
 
 ```sh
 pnpm lint
