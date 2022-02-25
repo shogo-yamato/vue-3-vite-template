@@ -10,7 +10,7 @@
     "lint:style": "stylelint \"**/*.{css,scss,sass,html,vue}\" --ignore-path .gitignore",
     "lint:prettier": "prettier --check .",
     "lint": "pnpm lint:js && pnpm lint:style && pnpm lint:prettier",
-    "lintfix": "pnpm prettier --write --list-different . && pnpm lint:js -- --fix && pnpm lint:style -- --fix"
+    "lintfix": "prettier --write --list-different . && pnpm lint:js -- --fix && pnpm lint:style -- --fix"
   },
   "dependencies": {
     "pinia": "^2.0.11",
